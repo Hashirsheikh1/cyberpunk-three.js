@@ -39,7 +39,7 @@ directionalLight.position.set(5, 10, 7.5)
 scene.add(directionalLight)
 
 const rgbeLoader = new RGBELoader()
-const hdriPath = '/night4k.hdr'
+const hdriPath = 'night4k.hdr'
 rgbeLoader.load(
   hdriPath,
   function (texture) {
@@ -81,7 +81,7 @@ function onMouseMove(event) {
 
 const gltfLoader = new GLTFLoader()
 gltfLoader.load(
-  '/damagedHelmet.gltf',
+  'damagedHelmet.gltf',
   (gltf) => {
     scene.add(gltf.scene)
     gltf.scene.position.set(0, 0, 0)
