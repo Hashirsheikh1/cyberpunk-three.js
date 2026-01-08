@@ -39,7 +39,7 @@ directionalLight.position.set(5, 10, 7.5)
 scene.add(directionalLight)
 
 const rgbeLoader = new RGBELoader()
-const hdriPath = 'https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/pond_bridge_night_1k.hdr'
+const hdriPath = '../public/night4k.hdr'
 rgbeLoader.load(
   hdriPath,
   function (texture) {
